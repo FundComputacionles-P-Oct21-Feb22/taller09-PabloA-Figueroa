@@ -1,0 +1,23 @@
+/*Se requiere ingresar las ventas totales diaras de 2 vendedores; realizadas de lunes a viernes. 
+Los vendedores están representados en una estructura unidimensional de dos elementos. El arreglo se llama vendedores */
+
+
+1.  Inicio
+
+2.  (vendedores(2),x(50)[{a-z},{A-Z},{BS}]) <-- {"Jerry Ponce", "Gabriela Lewis"}
+3.  (ventas(2)(5),d[0-n])
+4.  suma, d[0-n] <-- 0
+
+5.  Para(fila<-- 0, fila < 2, 1 ) haga
+6.     Para(columna<--0, columna < 5, 1) haga 
+7.         Escriba " Ingrese las ventas de " vendedores[fila]
+8.         lea ventas[fila][columna] //1 //2
+9.         suma <-- suma + ventas[fila][columna]
+10.    Fin_Para
+11. Fin_Para
+12. Para (fila<-- 0, fila < 2, 1 ) haga
+13.     Escriba " vendedor(a) " + vendedores[fila] 
+14. Fin_Para 
+15. Escriba " Han realizado un total de: " + suma + " en ventas"
+
+16. Fin

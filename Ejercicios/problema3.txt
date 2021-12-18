@@ -1,0 +1,35 @@
+/*Dadas las notas de tres (3) estudiantes; generar una solución que permita 
+encontrar el promedio de las calificaciones por cada conjunto de notas de los 
+estudiantes. La problemática sugiere el uso de estructuras de datos. Las notas están en 
+un arreglo bidimensional llamado notas; notas tiene 3 filas y 4 columnas. */
+
+1.  Inicio
+
+2.   (notasE(3)(4),d[0-n])
+3.   (promedios(3),d[0-n])
+4.   (estudiantes(3),x(50)[{a-z},{A-Z},{BS}]) <-- {"Jerry Ponce", "Gabriela Lewis", "David Bell"}
+5.   suma, d[0-n]
+6.   notasE[0][0] <-- 9
+7.   notasE[0][1] <-- 10
+8.   notasE[0][2] <-- 7
+9.   notasE[0][3] <-- 8
+10.  notasE[1][0] <-- 10
+11.  notasE[1][1] <-- 5
+12.  notasE[1][2] <-- 7
+13.  notasE[1][3] <-- 9
+14.  notasE[2][0] <-- 7
+15.  notasE[2][1] <-- 9.4
+16.  notasE[2][2] <-- 10
+17.  notasE[2][3] <-- 9
+
+18. para(fila<-- 0, fila < 3, 1 ) haga
+19.     para(columna<--0, columna < 4, 1) haga 
+20.         suma<-- suma + notasE[fila][columna]
+21.     Fin_Para
+22.     promedios[fila]<-- (suma/4)
+23. Fin_Para
+24. Para (contador, i[0-n]<--0, fila <3, 1) haga
+25.     Escriba "Estudiante: " + estudiantes[contador] + " tiene un promedio de: " + promedios[fila]
+26. Fin_Para
+
+27. Fin
